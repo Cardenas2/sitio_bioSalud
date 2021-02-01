@@ -18398,6 +18398,7 @@ main {
 #hero {
     background: url(../img/bg/como-tener-la-sonrisa-perfecta.jpg);
     background-size: cover;
+    background-position: bottom;
     height: 100vh;
     display: flex;
 }
@@ -18532,6 +18533,7 @@ footer .col-12.col-md-3 h2, footer .col-12.col-md-3 .h2 {
     #hero {
         background: url(../img/bg/como-tener-la-sonrisa-perfecta-mobile.jpg);
         background-size: cover;
+        height: 100vh;
         margin-top: -100px;
     }
     #hero h1, #hero .h1 {

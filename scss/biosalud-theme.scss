@@ -57,6 +57,7 @@ main{
 #hero {
 	background: url(../img/bg/como-tener-la-sonrisa-perfecta.jpg);
 	background-size:cover;
+	background-position: bottom;
 	height: 100vh;
 	display: flex;
 }
@@ -162,6 +163,7 @@ footer .col-12.col-md-3 h2 {
 	color: $blue-bio !important;
 }
 
+
 @media only screen and (min-width: 320px)and (max-width: 1199px) {
 
 	main{
@@ -173,6 +175,7 @@ footer .col-12.col-md-3 h2 {
 	#hero {
 		background: url(../img/bg/como-tener-la-sonrisa-perfecta-mobile.jpg);
 		background-size: cover;
+		height: 100vh;
 		margin-top: -100px;
 		h1{
 			font-size: 1.6em;
