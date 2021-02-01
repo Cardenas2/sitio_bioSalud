@@ -18521,7 +18521,7 @@ footer .col-12.col-md-3 h2, footer .col-12.col-md-3 .h2 {
     color: #0F05C1 !important;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1199px) {
+@media only screen and (min-width: 320px) and (max-width: 768px) {
     main {
         padding-top: 100px;
     }
@@ -18568,4 +18568,10 @@ footer .col-12.col-md-3 h2, footer .col-12.col-md-3 .h2 {
     .display-hero {
         padding-top: 350px;
     }
+}
+.tratamiento {
+    background-image: url(../img/bg/tratamiento-dental-mobil.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
 }
