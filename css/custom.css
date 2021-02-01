@@ -18569,9 +18569,20 @@ footer .col-12.col-md-3 h2, footer .col-12.col-md-3 .h2 {
         padding-top: 350px;
     }
 }
+/*pantalla movil*/
 .tratamiento {
     background-image: url(../img/bg/tratamiento-dental-mobil.jpg);
     background-size: cover;
-    height: 300px;
+    background-position: center;
+    width: 100%;
+    height: 35vh;
     display: flex;
+    position: relative;
+}
+.tratamiento h1, .tratamiento .h1 {
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
 }
