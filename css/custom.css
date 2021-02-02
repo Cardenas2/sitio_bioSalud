@@ -18447,7 +18447,7 @@ main {
 
 .mobile-btn.phone {
     padding: 10px 23px 20px;
-    background: #BF159B;
+    background: #BF159C;
     text-align: left;
     line-height: 30px;
     font-size: 20px;
@@ -18587,20 +18587,49 @@ footer .col-12.col-md-3 h2, footer .col-12.col-md-3 .h2 {
     margin-bottom: 30px;
 }
 
-.item-trat {
+.contenido-trat {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.caj-trat {
     background-color: #FFFFFF;
-    border-radius: 5px;
     display: flex;
-    margin-bottom: 20px;
-}
-.item-trat .imagen {
-    width: 50%;
-    height: 100%;
     border-radius: 5px;
-    background-color: #09018C;
+    flex-direction: row;
+    min-width: 360px;
+    max-width: 680px;
 }
-.item-trat h5, .item-trat .h5 {
-    font-size: 16px;
-    color: #09018C;
+
+.caj-imagen {
+    width: 200px;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.caj-imagen img {
+    width: 100%;
+}
+
+.caj-text {
+    width: 100%;
+    padding: 1em;
+}
+
+h5.titulo-trat, .titulo-trat.h5 {
     font-weight: 700;
+}
+
+.parrafo-trat {
+    font-size: 15px;
+    color: #000000;
+}
+
+@media only screen and (min-width: 770px) {
+    .contenido-trat {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
 }
