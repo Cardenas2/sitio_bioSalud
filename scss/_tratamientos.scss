@@ -19,21 +19,20 @@
 
 .item-trat{
     background-color:$color-claro;
-    padding:0;
-}
-.img-trat{
-    width:150px;
-    height:150px;
-    background-size:cover;
-    background-position: center;
-
-    img{
-        width: 100%;
+    border-radius: 5px;
+    display:flex;
+    margin-bottom: 20px;
+    .imagen{
+        width:50%;
+        height:100%;
+        // display: block;
+        border-radius: 5px;
+        background-color: $color-principal-oscuro;
     }
 
-}
-h5{
-    font-size: 13px;
-    color:$color-principal-oscuro;
-    font-weight: 700;
+    h5{
+        font-size: 16px;
+        color:$color-principal-oscuro;
+        font-weight: 700;
+    }
 }

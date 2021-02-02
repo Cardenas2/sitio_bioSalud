@@ -18589,21 +18589,18 @@ footer .col-12.col-md-3 h2, footer .col-12.col-md-3 .h2 {
 
 .item-trat {
     background-color: #FFFFFF;
-    padding: 0;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 20px;
 }
-
-.img-trat {
-    width: 150px;
-    height: 150px;
-    background-size: cover;
-    background-position: center;
+.item-trat .imagen {
+    width: 50%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: #09018C;
 }
-.img-trat img {
-    width: 100%;
-}
-
-h5, .h5 {
-    font-size: 13px;
+.item-trat h5, .item-trat .h5 {
+    font-size: 16px;
     color: #09018C;
     font-weight: 700;
 }
