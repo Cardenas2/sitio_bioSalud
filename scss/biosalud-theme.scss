@@ -133,7 +133,7 @@ main{
 	background-color: #AFABF0;
 }
 span.wow{
-	color: $blue-bio-dark;
+	color:$color-principal-oscuro;
 	font-weight: 400;
 }
 .d-flex.justify-content-between img{
@@ -145,7 +145,8 @@ span.wow{
 	background-color: #E4E3FF;
 }
 #contact label{
-	color: $blue-bio-dark;
+	color:$color-principal-oscuro
+	,
 }
 .contact-form{
 	width: 100%;

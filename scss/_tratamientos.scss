@@ -15,3 +15,25 @@
        margin-bottom: 30px;
    }
 }
+
+
+.item-trat{
+    background-color:$color-claro;
+    padding:0;
+}
+.img-trat{
+    width:150px;
+    height:150px;
+    background-size:cover;
+    background-position: center;
+
+    img{
+        width: 100%;
+    }
+
+}
+h5{
+    font-size: 13px;
+    color:$color-principal-oscuro;
+    font-weight: 700;
+}

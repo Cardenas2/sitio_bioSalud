@@ -21,20 +21,9 @@ Index Of css
     01. Common CSS
 ===========================*/
 
-$blue-bio: #0F05C1;
-$blue-bio-dark: #09018C;
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
 html {
 	scroll-behavior: smooth;
-}
-
-body {
-	font-family: "Poppins", sans-serif;
-	font-weight: normal;
-	font-style: normal;
-	color: #6A7C92;
-	overflow-x: hidden;
-	font-size: 16px;
 }
 
 * {
@@ -44,6 +33,16 @@ body {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color:$color-fondo;
+	overflow-x: hidden;
+	font-size: 16px;
+}
+
 
 .navbar-toggler:focus,
 a:focus,
@@ -67,10 +66,10 @@ a:hover {
 	-ms-transition: all 0.3s ease-out 0s;
 	-o-transition: all 0.3s ease-out 0s;
 	transition: all 0.3s ease-out 0s;
-	color: #0F05C1;
+	color:$color-principal;
 }
 
-a:focus,
+a:focus, 
 a:hover {
 	text-decoration: none;
 }
@@ -102,7 +101,7 @@ h4,
 h5,
 h6 {
 	font-weight: 600;
-	color: #051441;
+	color:$color-principal-oscuro;
 	margin: 0px;
 }
 
@@ -121,7 +120,7 @@ h1 {
 
 h2 {
 	font-size: 40px;
-	color: $blue-bio-dark;
+	color:$color-principal-oscuro;
 }
 
 @media (max-width: 767px) {
@@ -158,7 +157,7 @@ p {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 26px;
-	color:$blue-bio-dark;
+	color:$color-principal-oscuro;
 	margin: 0px;
 }
 
@@ -191,7 +190,7 @@ p {
 }
 
 .gray-bg {
-	background: #EFF2F9;
+	background:$color-claro;
 }
 
 .alert-link {
@@ -347,7 +346,7 @@ p {
 .section-title span {
 	font-size: 25px;
 	font-weight: 700;
-	color: #3763EB;
+	color:$color-fondo-oscuro;
 	margin-bottom: 5px;
 }
 
@@ -385,7 +384,7 @@ p {
 	height: 100%;
 	width: 100%;
 	/* Change Background Color */
-	background: #fff;
+	background:$color-claro;
 	z-index: 99999;
 }
 
