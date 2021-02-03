@@ -32,12 +32,23 @@
     grid-gap:10px;
     margin-bottom:1em;
 }
+// .caj-text-prof{
+//     display: flex;
+// }
+.parrafo-profesion{
+    color:$color-gris;
+}
+.parrafo-l-estudios{
+    color:$color-oscuro;
+    margin-bottom: auto;
+}
 
 .caj-prof{ 
     background-color:$color-claro;
     display: flex;
     border-radius: 5px;
     flex-direction: row;
+
 }
 
 .caj-imagen-prof{
@@ -60,16 +71,11 @@
      }
     
      .contenido-profesionales{
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-gap:10px;
-        margin-bottom:1em;
+       grid-template-columns: repeat(4, 1fr);
+        
     }
      .caj-prof{ 
-        background-color:$color-claro;
-        display: flex;
-        border-radius: 5px;
-        flex-direction:column;
+       flex-direction:column;
     }
     .caj-imagen-prof img{
         width:100%;

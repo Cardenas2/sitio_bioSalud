@@ -18722,6 +18722,15 @@ h5.titulo-trat, .titulo-trat.h5 {
     margin-bottom: 1em;
 }
 
+.parrafo-profesion {
+    color: #606060;
+}
+
+.parrafo-l-estudios {
+    color: #000000;
+    margin-bottom: auto;
+}
+
 .caj-prof {
     background-color: #FFFFFF;
     display: flex;
@@ -18751,16 +18760,10 @@ h5.titulo-trat, .titulo-trat.h5 {
     }
 
     .contenido-profesionales {
-        display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-gap: 10px;
-        margin-bottom: 1em;
     }
 
     .caj-prof {
-        background-color: #FFFFFF;
-        display: flex;
-        border-radius: 5px;
         flex-direction: column;
     }
 
