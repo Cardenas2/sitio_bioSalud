@@ -18668,4 +18668,13 @@ h5.titulo-trat, .titulo-trat.h5 {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 10px;
     }
+
+    .tratamiento {
+        background-image: url(../img/bg/tratamiento-dental-desktop.jpg);
+        background-position: center;
+        height: 45vh;
+    }
+    .tratamiento h1, .tratamiento .h1 {
+        font-size: 70px;
+    }
 }
