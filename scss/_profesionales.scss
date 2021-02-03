@@ -14,6 +14,7 @@
         margin-bottom: 30px;
     }
 }
+
 .profesionales:before{
     content: "";
     width: 100%;
@@ -25,6 +26,29 @@
 
 }
 
+.contenido-profesionales{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:10px;
+    margin-bottom:1em;
+}
+
+.caj-prof{ 
+    background-color:$color-claro;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: row;
+}
+
+.caj-imagen-prof{
+    flex:0 1 auto;
+    background-repeat: no-repeat;
+}
+.caj-imagen-prof img{
+    width:auto;
+    height: 170px;
+    object-fit: cover;
+}
 @media only screen and (min-width:770px){
     .profesionales{
         background-image: url(../img/bg/profesional.jpg);
@@ -34,4 +58,21 @@
             font-size: 70px;
         }
      }
+    
+     .contenido-profesionales{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap:10px;
+        margin-bottom:1em;
+    }
+     .caj-prof{ 
+        background-color:$color-claro;
+        display: flex;
+        border-radius: 5px;
+        flex-direction:column;
+    }
+    .caj-imagen-prof img{
+        width:100%;
+        height: auto;
+    }
 } 
