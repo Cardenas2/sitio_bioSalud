@@ -18587,6 +18587,16 @@ footer .col-12.col-md-3 h2, footer .col-12.col-md-3 .h2 {
     margin-bottom: 30px;
 }
 
+.tratamiento:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(97, 0, 113, 0.6);
+}
+
 .contenido-trat {
     display: grid;
     grid-template-columns: 1fr;
