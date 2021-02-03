@@ -31,8 +31,8 @@
     max-width: 680px;
 }
 
-.caj-imagen,.caj-imagen2{
-    flex:1 1 0;
+.caj-imagen{
+    flex:0 1 auto;
     background-repeat: no-repeat;
 }
 .caj-imagen img{
@@ -80,6 +80,7 @@ h5.titulo-trat{
     object-fit: cover;
     object-position:center;
 }
+
 
 @media only screen and (min-width:770px){
     .contenido-trat{

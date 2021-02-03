@@ -18603,8 +18603,8 @@ footer .col-12.col-md-3 h2, footer .col-12.col-md-3 .h2 {
     max-width: 680px;
 }
 
-.caj-imagen, .caj-imagen2 {
-    flex: 1 1 0;
+.caj-imagen {
+    flex: 0 1 auto;
     background-repeat: no-repeat;
 }
 
