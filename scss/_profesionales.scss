@@ -1,0 +1,37 @@
+.profesionales{
+    background-image: url(../img/bg/profesional-mobil.jpg);
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height:35vh;
+    display: flex;
+    position: relative;
+    h1{
+        font-size: 25px;
+        color:#fff;
+        position: absolute;
+        bottom:0;
+        margin-bottom: 30px;
+    }
+}
+.profesionales:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: rgba($color-complementario-oscuro, 0.6);
+
+}
+
+@media only screen and (min-width:770px){
+    .profesionales{
+        background-image: url(../img/bg/profesional.jpg);
+        background-position: center;
+        height:45vh;
+        h1{
+            font-size: 70px;
+        }
+     }
+} 
