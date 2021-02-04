@@ -18818,6 +18818,11 @@ h5.titulo-trat, .titulo-trat.h5 {
     width: 120px;
 }
 
+.parrafo-conv {
+    font-size: 15px;
+    color: #000000;
+}
+
 @media only screen and (min-width: 770px) {
     .contenido-convenios {
         display: grid;
