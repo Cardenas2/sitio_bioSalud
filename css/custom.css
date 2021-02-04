@@ -18771,3 +18771,29 @@ h5.titulo-trat, .titulo-trat.h5 {
         height: auto;
     }
 }
+.convenios {
+    background-image: url(../img/bg/convenios-mobil.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    position: relative;
+}
+.convenios h1, .convenios .h1 {
+    font-size: 25px;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px;
+}
+
+.convenios:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(97, 0, 113, 0.6);
+}
