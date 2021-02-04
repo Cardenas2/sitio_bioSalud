@@ -32,15 +32,11 @@
     grid-gap:10px;
     margin-bottom:1em;
 }
-// .caj-text-prof{
-//     display: flex;
-// }
 .parrafo-profesion{
     color:$color-gris;
-}
+ }
 .parrafo-l-estudios{
-    color:$color-oscuro;
-    margin-bottom: auto;
+    color:$color-oscuro;   
 }
 
 .caj-prof{ 
@@ -79,6 +75,6 @@
     }
     .caj-imagen-prof img{
         width:100%;
-        height: auto;
+        height: auto; 
     }
 } 
