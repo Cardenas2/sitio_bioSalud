@@ -48,6 +48,32 @@
 }
 
 
+#empresas{
+    background-color:$color-fondo;
+    color:$color-oscuro;
+}
+
+.titulo-empresa-h2{
+    font-size: 24px;
+}
+
+.parrafo-empresa{
+    color:$color-oscuro;
+    text-align: left;
+ }
+.lista-texto-empresa{
+    text-align: left;
+}
+.item-texto-empresa{
+    position:relative;
+    padding:.4em 0;
+}
+
+
+
+
+
+
 @media only screen and (min-width:770px){
     .contenido-convenios{
         display: grid;
@@ -65,3 +91,4 @@
         margin-bottom:1em;
     } 
 }
+

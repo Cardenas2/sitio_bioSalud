@@ -15633,7 +15633,7 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: normal;
     font-style: normal;
-    color: #6A7C92;
+    color: #e4e3ff;
     overflow-x: hidden;
     font-size: 16px;
 }
@@ -18821,6 +18821,29 @@ h5.titulo-trat, .titulo-trat.h5 {
 .parrafo-conv {
     font-size: 15px;
     color: #000000;
+}
+
+#empresas {
+    background-color: #e4e3ff;
+    color: #000000;
+}
+
+.titulo-empresa-h2 {
+    font-size: 24px;
+}
+
+.parrafo-empresa {
+    color: #000000;
+    text-align: left;
+}
+
+.lista-texto-empresa {
+    text-align: left;
+}
+
+.item-texto-empresa {
+    position: relative;
+    padding: 0.4em 0;
 }
 
 @media only screen and (min-width: 770px) {
