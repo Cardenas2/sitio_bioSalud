@@ -18879,4 +18879,8 @@ h5.titulo-trat, .titulo-trat.h5 {
     .convenios h1, .convenios .h1 {
         font-size: 70px;
     }
+
+    h2.titulo-empresa-h2, .titulo-empresa-h2.h2 {
+        font-size: 18px;
+    }
 }
