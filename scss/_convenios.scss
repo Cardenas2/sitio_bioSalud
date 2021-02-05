@@ -26,7 +26,7 @@
 }
 
 .contenido-convenios{
-    display: grid;
+    display: grid; 
     grid-template-columns: 1fr;
     grid-gap:10px;
     margin-bottom:1em;
@@ -81,6 +81,15 @@
         grid-gap:10px;
         margin-bottom:1em;
     } 
+    .convenios{
+        background-image: url(../img/bg/convenios.jpg);
+        background-position: left;
+        height:45vh;
+        h1{
+            font-size: 70px;
+        }
+    }
+    
 }
 
 @media only screen and (min-width:1200px){
@@ -90,5 +99,16 @@
         grid-gap:10px;
         margin-bottom:1em;
     } 
+    .convenios{
+        background-image: url(../img/bg/convenios.jpg);
+        background-position: left;
+        height:45vh;
+        h1{
+            font-size: 70px;
+        }
+    }
+    // h2.titulo-empresa-h2{
+    //     font-size: 18px;
+    // }
 }
 

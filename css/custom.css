@@ -18853,6 +18853,15 @@ h5.titulo-trat, .titulo-trat.h5 {
         grid-gap: 10px;
         margin-bottom: 1em;
     }
+
+    .convenios {
+        background-image: url(../img/bg/convenios.jpg);
+        background-position: left;
+        height: 45vh;
+    }
+    .convenios h1, .convenios .h1 {
+        font-size: 70px;
+    }
 }
 @media only screen and (min-width: 1200px) {
     .contenido-convenios {
@@ -18860,5 +18869,14 @@ h5.titulo-trat, .titulo-trat.h5 {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 10px;
         margin-bottom: 1em;
+    }
+
+    .convenios {
+        background-image: url(../img/bg/convenios.jpg);
+        background-position: left;
+        height: 45vh;
+    }
+    .convenios h1, .convenios .h1 {
+        font-size: 70px;
     }
 }
