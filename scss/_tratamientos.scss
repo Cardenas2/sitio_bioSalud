@@ -48,6 +48,7 @@
 .caj-imagen img{
     width:auto;
     height: 200px;
+    border-radius: 0;
     object-fit: cover;
 }
 .caj-text{
@@ -86,7 +87,6 @@ h5.titulo-trat{
 .caj-imagen2 img{
     width: 100%;
     height: 180px;
-    border-radius: 5px;
     object-fit: cover;
     object-position:center;
 }
@@ -106,7 +106,7 @@ h5.titulo-trat{
         background-position: center;
         height:45vh;
         h1{
-            font-size: 70px;
+            font-size: 45px;
         }
      }
 } 

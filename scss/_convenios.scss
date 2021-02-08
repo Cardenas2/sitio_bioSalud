@@ -40,7 +40,10 @@
 }
 .caj-imagen-conv{
     background-repeat: no-repeat;
-    width: 120px;
+    width: 70px;
+    img{
+        width:70px;
+    }
 }
 .parrafo-conv{
     font-size: 15px;
@@ -86,11 +89,11 @@
         background-position: left;
         height:45vh;
         h1{
-            font-size: 70px;
+            font-size: 45px;
         }
     }
 
-}
+} 
 
 @media only screen and (min-width:1200px){
     .contenido-convenios{
@@ -104,7 +107,7 @@
         background-position: left;
         height:45vh;
         h1{
-            font-size: 70px;
+            font-size: 45px;
         }
     }
     h2.titulo-empresa-h2{

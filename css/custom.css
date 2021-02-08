@@ -18480,7 +18480,8 @@ main {
 }
 
 #about-us {
-    background-color: #AFABF0;
+    border-top: 1px solid #ADACEB;
+    background-color: #e4e2ff;
 }
 
 span.wow {
@@ -18621,6 +18622,7 @@ footer .col-12.col-md-3 h2, footer .col-12.col-md-3 .h2 {
 .caj-imagen img {
     width: auto;
     height: 200px;
+    border-radius: 0;
     object-fit: cover;
 }
 
@@ -18663,7 +18665,6 @@ h5.titulo-trat, .titulo-trat.h5 {
 .caj-imagen2 img {
     width: 100%;
     height: 180px;
-    border-radius: 5px;
     object-fit: cover;
     object-position: center;
 }
@@ -18685,7 +18686,7 @@ h5.titulo-trat, .titulo-trat.h5 {
         height: 45vh;
     }
     .tratamiento h1, .tratamiento .h1 {
-        font-size: 70px;
+        font-size: 45px;
     }
 }
 .profesionales {
@@ -18755,7 +18756,7 @@ h5.titulo-trat, .titulo-trat.h5 {
         height: 45vh;
     }
     .profesionales h1, .profesionales .h1 {
-        font-size: 70px;
+        font-size: 45px;
     }
 
     .contenido-profesionales {
@@ -18815,7 +18816,10 @@ h5.titulo-trat, .titulo-trat.h5 {
 
 .caj-imagen-conv {
     background-repeat: no-repeat;
-    width: 120px;
+    width: 70px;
+}
+.caj-imagen-conv img {
+    width: 70px;
 }
 
 .parrafo-conv {
@@ -18860,7 +18864,7 @@ h5.titulo-trat, .titulo-trat.h5 {
         height: 45vh;
     }
     .convenios h1, .convenios .h1 {
-        font-size: 70px;
+        font-size: 45px;
     }
 }
 @media only screen and (min-width: 1200px) {
@@ -18877,7 +18881,7 @@ h5.titulo-trat, .titulo-trat.h5 {
         height: 45vh;
     }
     .convenios h1, .convenios .h1 {
-        font-size: 70px;
+        font-size: 45px;
     }
 
     h2.titulo-empresa-h2, .titulo-empresa-h2.h2 {
